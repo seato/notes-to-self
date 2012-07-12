@@ -1,6 +1,8 @@
 notes-to-self
 =============
 
+Link to markdown syntax: http://daringfireball.net/projects/markdown/
+
 a couple of dime-a-dozen ideas for interesting weekend projects.
 
 A script to easily pump your 'find' and 'grep' commands without you putting in the flags
