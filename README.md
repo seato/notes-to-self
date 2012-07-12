@@ -75,8 +75,10 @@ Alias backing up directories
 
 practical grep
 --------------
-TBA
+similar to http://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/  
+but i have a couple specifc useful cases
 
 practical find
 --------------
-TBA
+similar to http://www.thegeekstuff.com/2009/03/15-practical-linux-find-command-examples/  
+but use cases for me =]
