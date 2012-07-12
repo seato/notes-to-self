@@ -4,8 +4,11 @@ notes-to-self
 getting started
 ---------------
 eat a healthy breakfast, the most important meal of the day
+
 then check out the .DO_NOT_REAME; if you're not in there, then go on
+
 if you are, then scrolling down will trigger the release of a horde of bees
+
 to arrive in 3-5 business days, free shipping and handling!
 
 markdown syntax
