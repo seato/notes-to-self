@@ -1,13 +1,20 @@
 notes-to-self
 =============
 
-Don't ask, don't tell
+getting started
+---------------
+eat a healthy breakfast, the most important meal of the day
+then check out the .DO_NOT_REAME; if you're not in there, then go on
+if you are, then scrolling down will trigger the release of a horde of bees
+to arrive in 3-5 business days, free shipping and handling!
+
+markdown syntax
+---------------
+http://daringfireball.net/projects/markdown/
+
+don't ask, don't tell
 ---------------------
 grep -rilE "programmer|author" * | grep -viE ".pl|.py" | xargs grep -rinEA 5 "programmer|author"
-
-Link to markdown syntax
------------------------
-http://daringfireball.net/projects/markdown/
 
 dime-a-dozen ideas for interesting weekend projects
 ---------------------------------------------------
