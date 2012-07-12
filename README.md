@@ -13,6 +13,7 @@ todo
 - Add this long list to the Git wiki, it'll be more organized and good practice for wiki'ing
 - change my personal emacs to not remove trailing white space if it's not code
 - http://stackoverflow.com/questions/7378531/the-equivalent-of-a-gui-quick-open-in-emacs-on-cli
+- add to rhlug for fedora, i'm tired of googling for a startup guide: http://lug.rose-hulman.edu/wiki/Main_Page
 
 markdown syntax
 ---------------
