@@ -3,13 +3,15 @@ notes-to-self
 
 getting started
 ---------------
-eat a healthy breakfast, the most important meal of the day
-
-then check out the .DO_NOT_REAME; if you're not in there, then go on
-
-if you are, then scrolling down will trigger the release of a horde of bees
-
+eat a healthy breakfast, the most important meal of the day.  
+then check out the .DO_NOT_REAME; if you're not in there, then go on  
+if you are, then scrolling down will trigger the release of a horde of bees  
 to arrive in 3-5 business days, free shipping and handling!
+
+todo
+----
+- Add this long list to the Git wiki, it'll be more organized and good practice for wiki'ing
+- change my personal emacs to not remove trailing white space if it's not code
 
 markdown syntax
 ---------------
@@ -68,3 +70,11 @@ Alias backing up directories
 > or
 > $ bk 5
 > $ cd ../../../../..
+
+practical grep
+--------------
+TBA
+
+practical find
+--------------
+TBA
