@@ -1,8 +1,8 @@
 notes-to-self
 =============
 
-Don't ask
----------
+Don't ask, don't tell
+---------------------
 grep -rilE "programmer|author" * | grep -viE ".pl|.py" | xargs grep -rinEA 5 "programmer|author"
 
 Link to markdown syntax
@@ -41,3 +41,12 @@ Script to delete trailing whitespace (and then something to constantly check for
 > - Ensure the author of .c or .h files are listed
 > - Spell check README's
 >  FEATURES, FEATURES EVERYWHERE!
+
+Generic cleanup script
+> Remove tilde files, calls make cleans, removes objects/bins/exes
+> car_wash PROJECT_DIR
+>
+> And for the wealthy
+> car_wash -premium PROJECT_DIR
+> Strips out .cvs/.git/.svn/etc files for export
+> Hell, I'll throw a tarball in there for free!
