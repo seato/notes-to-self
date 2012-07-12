@@ -60,3 +60,11 @@ Generic cleanup script
 > car_wash -premium PROJECT_DIR
 > Strips out .cvs/.git/.svn/etc files for export
 > Hell, I'll throw a tarball in there for free!
+
+Alias backing up directories
+> $ bk
+> instead of
+> $ cd ..
+> or
+> $ bk 5
+> $ cd ../../../../..
