@@ -1,9 +1,16 @@
 notes-to-self
 =============
 
-Link to markdown syntax: http://daringfireball.net/projects/markdown/
+Don't ask
+---------
+grep -rilE "programmer|author" * | grep -viE ".pl|.py" | xargs grep -rinEA 5 "programmer|author"
 
-a couple of dime-a-dozen ideas for interesting weekend projects.
+Link to markdown syntax
+-----------------------
+http://daringfireball.net/projects/markdown/
+
+dime-a-dozen ideas for interesting weekend projects
+---------------------------------------------------
 
 A script to easily pump your 'find' and 'grep' commands without you putting in the flags
 > I would absolutely love to try having it parse natural language
