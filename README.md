@@ -20,7 +20,7 @@ http://daringfireball.net/projects/markdown/
 
 don't ask, don't tell
 ---------------------
-grep -rilE "programmer|author" * | grep -viE ".pl|.py" | xargs grep -rinEA 5 "programmer|author"
+grep -rilE "programmer|author" * | grep -viE ".pl|.py" | xargs grep -rinEA 5 "programmer|author" > hit_list
 
 dime-a-dozen ideas for interesting weekend projects
 ---------------------------------------------------
