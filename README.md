@@ -3,10 +3,9 @@ notes-to-self
 
 getting started
 ---------------
-eat a healthy breakfast, the most important meal of the day.  
-then check out the .DO_NOT_REAME; if you're not in there, then go on  
-if you are, then scrolling down will trigger the release of a horde of bees  
-to arrive in 3-5 business days, free shipping and handling!
+Eat a healthy breakfast, the most important meal of the day.  
+Done?  
+Now check out the .DO_NOT_REAME; if you're not in there, then continue on ahead. But if you are on there, then scrolling down will trigger the release of a horde of bees to arrive in 3-5 business days, free shipping and handling!
 
 todo
 ----
@@ -65,20 +64,12 @@ Generic cleanup script
 > Strips out .cvs/.git/.svn/etc files for export
 > Hell, I'll throw a tarball in there for free!
 
-Alias backing up directories
-> $ bk
-> instead of
-> $ cd ..
-> or
-> $ bk 5
-> $ cd ../../../../..
-
 practical grep
 --------------
-similar to http://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/  
+similar to http://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/
 but i have a couple specifc useful cases
 
 practical find
 --------------
-similar to http://www.thegeekstuff.com/2009/03/15-practical-linux-find-command-examples/  
+similar to http://www.thegeekstuff.com/2009/03/15-practical-linux-find-command-examples/
 but use cases for me =]
