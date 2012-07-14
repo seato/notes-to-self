@@ -1,11 +1,18 @@
 #!/bin/bash
+# To run this script, you MUST have the GitHub wiki repository in the
+# same directory: notes-to-self.wiki
 
-echo "notes-to-self" > README.md
-echo -e '=============\n' >> README.md
+# This script iterates through the different files in the wiki and
+# puts it into the README--putting all of my organized notes in a
+# single location.
+
+echo "notes-to-self" > README.md # overwrite what exists
+echo -e '=============\n' >> README.md # append from here on out
 
 cat notes-to-self.wiki/Home.md >> README.md
 cat notes-to-self.wiki/markdown-syntax.md >> README.md
-cat notes-to-self.wiki/dime-a-dozen-ideas-for-interesting-weekend-projects.md >> README.md
+cat notes-to-self.wiki/dime-a-dozen-ideas-for-interesting-weekend-pro\
+jects.md >> README.md
 cat notes-to-self.wiki/practical-find.md >> README.md
 cat notes-to-self.wiki/practical-grep.md >> README.md
 cat notes-to-self.wiki/don\'t-ask,-don\'t-tell.md >> README.md
