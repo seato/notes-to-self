@@ -1,12 +1,16 @@
 #!/bin/bash
 # To run this script, you MUST have the GitHub wiki repository in the
 # same directory: notes-to-self.wiki
+# When you do an initial clone, you'll get an empty directory called
+# 'notes-to-self.wiki'.  Go to the same level of that directory
+# (not inside of it) and call the following command
+# $ git clone git@github.com:SuitAndThai/notes-to-self.wiki.git
 
 # This script iterates through the different files in the wiki and
 # puts it into the README--putting all of my organized notes in a
 # single location.
 
-echo "notes-to-self" > README.md # overwrite what exists
+echo "notes-to-self" > README.md # overwrite the existing file
 echo -e '=============\n' >> README.md # append from here on out
 
 cat notes-to-self.wiki/Home.md >> README.md
