@@ -25,6 +25,20 @@ This is the extended portion of my brain. There's a couple of cool things laying
 * [programming humor](https://github.com/SuitAndThai/notes-to-self/wiki/don%27t-ask,-don%27t-tell)
 http://daringfireball.net/projects/markdown/Flesh out the bash portion of the README.
 
+A new form-filling technology
+> Too many forms ask for the same information, when it's needlessly redundant.
+> Not only that, but there's a needless middle-man layer to interact with your forms
+> assuming that you're not doing it by hand (which you shouldn't, it's the 21st century).
+> What needs to happen is a single interface, or form, which directly writes to the
+> database (or XML file to be transferred to a database).
+> This is mainly concerning the abuse of the .ifm file format, which is used as a way to
+> directly write to a form template which can be exported into a .pdf.
+> ifm stands for iPrevent fraud management (Brighterion is the company), whose main use
+> is the prevention of credit card/account/etc fraud in real-time
+> There is no purpose to using it except to directly affect form templates which can be
+> exported to PDF, that should not be a reason to use a technology.
+> In fact, tt would save a lot of trouble, heartache, and costs if it could be free!
+
 A script to easily pump your 'find' and 'grep' commands without you putting in the flags
 > I would absolutely love to try having it parse natural language
 > find and grep commands and flags are easy to the person who typed them up
@@ -53,6 +67,7 @@ Script to delete trailing whitespace (and then something to constantly check for
 > - Delete trailing whitespace
 > - Ensure the author of .c or .h files are listed
 > - Spell check README's
+> - Check to see that each line is no longer than 80 chars
 >
 >  FEATURES, FEATURES EVERYWHERE!
 
