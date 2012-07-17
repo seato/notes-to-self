@@ -19,6 +19,7 @@ cat notes-to-self.wiki/dime-a-dozen-ideas-for-interesting-weekend-pro\
 jects.md >> README.md
 cat notes-to-self.wiki/practical-find.md >> README.md
 cat notes-to-self.wiki/practical-grep.md >> README.md
+cat notes-to-self.wiki/practical-sed.md >> README.md
 cat notes-to-self.wiki/don\'t-ask,-don\'t-tell.md >> README.md
 
 echo "Done!"
