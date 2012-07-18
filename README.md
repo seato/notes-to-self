@@ -21,9 +21,14 @@ state of the wiki
 This is the extended portion of my brain. There's a couple of cool things laying around.  
 * a reference to GitHub's [[markdown syntax]]
 * [weekend projects](https://github.com/SuitAndThai/notes-to-self/wiki/dime-a-dozen-ideas-for-interesting-weekend-projects) which may or may not get done
-* my own personal references to [find](https://github.com/SuitAndThai/notes-to-self/wiki/practical-find) and [grep](https://github.com/SuitAndThai/notes-to-self/wiki/practical-grep)
+* my own personal references to [find](https://github.com/SuitAndThai/notes-to-self/wiki/practical-find), [grep](https://github.com/SuitAndThai/notes-to-self/wiki/practical-grep), and [sed](https://github.com/SuitAndThai/notes-to-self/wiki/practical-sed)
 * [programming humor](https://github.com/SuitAndThai/notes-to-self/wiki/don%27t-ask,-don%27t-tell)
 http://daringfireball.net/projects/markdown/Flesh out the bash portion of the README.
+
+Example python program
+> Sis wants a quick python program doing some simple input > process > output
+> Maybe calculating pi, fibonacci numbers, or some obscure equation with a window
+> will be good enough.
 
 A new form-filling technology
 > Too many forms ask for the same information, when it's needlessly redundant.
@@ -128,6 +133,15 @@ an awesome link for more [find examples](http://www.thegeekstuff.com/2009/03/15-
 `$ grep -rilE "programmer|author" * | grep -viE ".pl|.py" | xargs grep -rinEA 5 "programmer|author" > hit_list`  
 
 an awesome link for more [grep examples](http://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/)  
+my most common use cases
+
+# basic usage (90% of the time)  
+1. sed substitute one string for another  
+`$ echo foobar | sed 's/bar/lish/'`  
+2. sed substitute one string for another, and overwrite the file in place  
+`$ sed -i 's/bar/lish/' foo.txt`  
+
+an awesome tutorial for more [sed usage](http://www.grymoire.com/Unix/Sed.html)  
 `$ grep -rilE "programmer|author" * | grep -viE ".pl|.py" | xargs grep -rinEA 5 "programmer|author" > hit_list`  
 Look in all of the files for references to programmers or authors, ignore the python scripts and prolog crap, then store the lines containing the programers/authors in my hit_list.  
 If you want to be able to read this for what it is, check out my page on [[practical grep]] commands  
